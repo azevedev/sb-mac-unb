@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.13.4/jquery.mask.min.js"></script>
+    <title>
+        Balanço Patrimonial
+    </title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem vindo!</h1>
+        </header>
+        <section>
+            <h2>Informe os dados necessários para gerar o balanço patrimonial</h2>
+            <form id="form">
+                <div class="container box line">
+                    <h3>Ativos:</h3>
+                    <div class="sub-input">
+                        <h5>Circulantes:</h5>
+                        <div>
+                            <label for="emprestimos_funcionarios">Empréstimos a funcionários</label>
+                            <span>R$</span><input class="money" name="emprestimos_funcionarios" type="text" />
+                        </div>
+                        <div>
+                            <label for="estoque">Estoque</label>
+                            <span>R$</span><input class="money" name="estoque" type="text" />
+                        </div>
+                        <div>
+                            <label for="clientes_circulante">Clientes</label>
+                            <span>R$</span><input class="money" name="clientes_circulante" type="text" />
+                        </div>
+                        <div>
+                            <label for="caixa">Caixa</label>
+                            <span>R$</span><input class="money" name="caixa" type="text" />
+                        </div>
+                        <div>
+                            <label for="bancos">Bancos</label>
+                            <span>R$</span><input class="money" name="bancos" type="text" />
+                        </div>
+                        <div>
+                            <label for="veiculos">Veículos</label>
+                            <span>R$</span><input class="money" name="veiculos" type="text" />
+                        </div>
+                    </div>
+                    <div class="sub-input">
+                        <h5>Longo Prazo:</h5>
+                        <div>
+                            <label for="adiantamentos">Adiantamentos</label>
+                            <span>R$</span><input class="money" name="adiantamentos" type="text" />
+                        </div>
+                        <div>
+                            <label for="clientes_longo_prazo">Clientes</label>
+                            <span>R$</span><input class="money" name="clientes_longo_prazo" type="text" />
+                        </div>
+                        <div>
+                            <label for="emprestimos_funcionarios_longo_prazo">Empréstimos a funcionários</label>
+                            <span>R$</span><input class="money" name="emprestimos_funcionarios_longo_prazo" type="text" />
+                        </div>
+                    </div>
+                    <div class="sub-input">
+                        <h3>Permanente:</h3>
+                        <h5>Imobilizado:</h5>
+                        <div>
+                            <label for="veiculos_imobilizado">Veículos</label>
+                            <span>R$</span><input class="money" name="veiculos_imobilizado" type="text" />
+                        </div>
+                        <div>
+                            <label for="moveis">Móveis</label>
+                            <span>R$</span><input class="money" name="moveis" type="text" />
+                        </div>
+                        <br>
+                        <h5>Diferido:</h5>
+                        <div>
+                            <label for="gastos_estudos">Gastos com estudo</label>
+                            <span>R$</span><input class="money" name="gastos_estudos" type="text" />
+                        </div>
+                    </div>
+                </div>
+                <div class="container box">
+                    <h3>Passivos:</h3>
+                    <div style="margin-top: 30px;">
+                        <label for="fornecedores">Fornecedores</label>
+                        <span>R$</span><input class="money" name="fornecedores" type="text" />
+                    </div>
+                    <div>
+                        <label for="alugueis">Alugueis a pagar</label>
+                        <span>R$</span><input class="money" name="alugueis" type="text" />
+                    </div>
+                    <div class="sub-input">
+                        <h5>Empréstimos:</h5>
+                        <div>
+                            <label for="emprestimos_longo_prazo">Empréstimos a longo prazo</label>
+                            <span>R$</span><input class="money" name="emprestimos_longo_prazo" type="text" />
+                        </div>
+                        <div>
+                            <label for="emprestimos_a_pagar">Empréstimos a pagar</label>
+                            <span>R$</span><input class="money" name="emprestimos_a_pagar" type="text" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="impostos">Impostos a pagar</label>
+                        <span>R$</span><input class="money" name="impostos" type="text" />
+                    </div>
+                </div>
+            </form>
+            <br>
+            <div style="display: flex; justify-content: center; margin-bottom: 32px;">
+                <button id="btn-save">Salvar</button>
+            </div>
+        </section>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+<script>
+</script>
+
+</html>

@@ -1,0 +1,32 @@
+{
+    "passivo": {
+        "total": 8300,
+        "fornecedores": 3100,
+        "alugueis": 500,
+        "emprestimos": { "total": 4000, "longo_prazo": 3000, "a_pagar": 1000 },
+        "impostos": 700
+    },
+    "ativo": {
+        "total": 10870,
+        "permanentes": {
+            "total": 5130,
+            "imobilizado": { "total": 4150, "veiculos": 3500, "moveis": 650 },
+            "diferido": { "total": 980, "gastos_estudos": 980 }
+        },
+        "circulante": {
+            "total": 4860,
+            "emprestimos_a_funcionarios": 480,
+            "estoque": 1150,
+            "clientes": 800,
+            "caixa": 130,
+            "bancos": 300,
+            "veiculos": 2000
+        },
+        "longo_prazo": {
+            "total": 880,
+            "adiantamentos": 260,
+            "clientes": 500,
+            "emprestimos_a_funcionarios": 120
+        }
+    }
+}
