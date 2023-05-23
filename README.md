@@ -33,31 +33,19 @@ Instalação
 
 Siga os passos abaixo para executar a aplicação localmente:
 
-1.  Clone este repositório em sua máquina local.
+1.  Clone o repositório:
 
-    shell
+    -   `git clone https://github.com/azevedev/sb-mac-unb`
 
--   `git clone https://github.com/azevedev/sb-mac-unb`
+2.  Acesse o diretório do projeto e Instale as dependências do projeto:
 
-    -   Acesse o diretório do projeto.
+    -   `cd sb-mac-unb && npm install`
 
-    shell
+3.  Inicie o servidor local.
+    
+    -   `npm start`
 
-    -   `cd sb-mac-unb`
-
-    -   Instale as dependências do projeto.
-
-    shell
-
-    -   `npm install`
-
-    -   Inicie o servidor local.
-
-    shell
-
-1.  `npm start`
-
-2.  Acesse a aplicação em seu navegador no endereço `http://localhost:3000`.
+4.  Acesse a aplicação em seu navegador no endereço `http://localhost:3000`.
 
 
 Contato
